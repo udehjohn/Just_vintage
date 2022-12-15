@@ -1,0 +1,137 @@
+* {
+    max-width : 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+    /* box-sizing: border-box; */
+  }
+#navbg{
+    background-image: url(../images/Hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#divcta{
+    margin-top: 7%;
+}
+#txt1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+#cta{
+    text-align: center;
+    margin-top: 30px;
+}
+#btncta{    
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+#btncta:hover{
+    background-color: #ffdb58;
+}
+.counter-section{
+    margin: 5% auto;
+    background-color: #ffdb58;
+}
+/* .icon-box{
+    height: 100px;
+    width: 100px;
+    margin: 10px auto;
+} */
+.icon-box .bi{
+    font-size: 30px;
+    color: black;
+}
+.counter-box .p1{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    margin: 40px;
+}
+.counter-box p{
+    font-size: 20px;
+    color: black;
+}
+.counter-box .counter{
+    font-size: 30px;
+    color: black;
+}
+.other-section{
+    margin: 30px auto;
+}
+
+
+/* Another Section */
+hr.solid {
+    border-top: 1px solid black;
+    margin: 100px auto;
+    width: 100%;
+}
+.content{
+    margin-bottom: 50px;
+}
+.widgets_div .icon_div {
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align:middle;
+    color: #ffdb58;
+}
+
+.widgets_div .icon_div span i {
+    font-size: 30px;
+}
+
+.widgets_div .text_div {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.widgets_div .text_div span {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.text_div p{
+    font-size: 13px;
+}  
+
+/* Counter */
+/* .counter{
+    background-color: #ffdb58;
+    text-align: center;
+    margin : 50px 0px 50px;
+    display: block;
+}
+#col1 p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 70px 40px 70px;
+}
+#col2 h1{
+    font-weight: 500;
+    font-size: 80px;
+    color: grey;
+    margin: auto;
+    margin-top: 40px;
+}
+#col2 p{
+    font-weight: 500;
+    font-size: 20px;
+    color: blue;
+} */
